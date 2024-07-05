@@ -1,0 +1,77 @@
+.login {
+    height: 100vh;
+    background-color: rgb(56, 73, 76);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    .card {
+      width: 90%; 
+      max-width: 600px; 
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      border-radius: 10px;
+      overflow: hidden;
+      padding: 20px;
+  
+      .left {
+        background: linear-gradient(rgba(39, 45, 49, 0.419), rgba(15, 49, 71, 0.337)), url("../../../public/pic_login1.jpg") center;
+        background-size: cover;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        gap: 10px;
+  
+        h1 {
+          font-size: 3rem; 
+        }
+  
+        span {
+          font-size: 1rem; 
+        }
+  
+        button {
+          width: 70%; 
+          padding: 10px;
+          font-size: 1rem;
+        }
+      }
+  
+      .right {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+  
+        h1 {
+          font-size: 2rem; 
+        }
+  
+        form {
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+  
+          input {
+            padding: 15px;
+            font-size: 1rem;
+          }
+  
+          button {
+            width: 70%; 
+            padding: 10px;
+            font-size: 1rem; 
+          }
+        }
+      }
+    }
+  
+    @media (max-width: 768px) {
+      .card {
+        width: 90%;
+      }
+    }
+  }
+  
